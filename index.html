@@ -11,12 +11,13 @@
      */
       /* GLOBAL STYLES */
       a {
-        color: red;
+        color: #f00;/*red*/
       }
 
       /* SOCIAL STYLES */
       .social-link {
-        color: blue;
+        background: rbga(150,150,150,1);
+        color: #00f; /*blue*/
       }
 
       /* BIO STYLES */
@@ -24,28 +25,28 @@
         border: 1px solid black;
       }
       .bio-copy a {
-        color: green;
+        color: #008000 /*green*/
       }
       .bio-box2 {
-        border: 1px solid green;
+        border: 1px solid #0f0 /*green*/;
       }
     </style>
   </head>
   <body>
     <h1 class="social-link">I'm an h1</h1>
     <ul>
-      <li>
+      <li class="social-link">
         <a href="http://example.com/">Link</a>
       </li>
       <li>
         <a href="http://example.com/">Link</a>
-      </li>
+      </li class="social-link">
       <li>
         <a href="http://example.com/">Link</a>
-      </li>
+      </li class="social-link">
     </ul>
     <h2>I'm an h2</h2>
-    <div class="bio-box2">
+    <div class="bio-box">
       <h3>Michael Hartl</h3>
       <a href="http://twitter.com/mhartl" class="social-link">here</a>
       <div class="bio-copy">
@@ -64,7 +65,7 @@
         </p>
       </div>
     </div>
-    <div class="bio-box2">
+    <div class="bio-box">
       <h3>Lee Donahoe</h3>
       <a href="https://twitter.com/leedonahoe" class="social-link">here</a>
       <div class="bio-copy">
@@ -76,7 +77,7 @@
         </p>
       </div>
     </div>
-    <div class="bio-box2">
+    <div class="bio-box">
       <h3>Nick Merwin</h3>
       <a href="https://twitter.com/nickmerwin" class="social-link">here</a>
       <div class="bio-copy">
@@ -88,7 +89,7 @@
         </p>
       </div>
     </div>
-    <div class="bio-box2">
+    <div class="bio-box">
       <h3>??</h3>
       <p>
         The Future
